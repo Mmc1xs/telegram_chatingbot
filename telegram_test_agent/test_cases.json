@@ -1,0 +1,82 @@
+[
+  {
+    "user": "哈囉，妳在嗎",
+    "expect_contains": "主人"
+  },
+  {
+    "user": "妳是誰？先簡短介紹一下",
+    "expect_contains": "主人"
+  },
+  {
+    "user": "我叫阿明，可以這樣叫我",
+    "expect_contains": "阿明"
+  },
+  {
+    "user": "我住高雄楠梓",
+    "expect_contains": "高雄"
+  },
+  {
+    "user": "我喜歡吃桃子，超愛那種脆的",
+    "expect_contains": "桃子"
+  },
+  {
+    "user": "我超討厭香菜，拜託記住",
+    "expect_contains": "香菜"
+  },
+  {
+    "user": "剛剛我說我喜歡吃什麼？",
+    "expect_contains": "桃子"
+  },
+  {
+    "user": "你確定？",
+    "expect_contains": "桃子"
+  },
+  {
+    "user": "那我不喜歡吃什麼",
+    "expect_contains": "香菜"
+  },
+  {
+    "user": "我今天有點累，回我溫柔一點",
+    "expect_contains": "主人"
+  },
+  {
+    "user": "等等 我打錯了 我不是累 我是餓==",
+    "expect_contains": "餓"
+  },
+  {
+    "user": "推薦一個現在能做的宵夜，不要太麻煩",
+    "expect_contains": ""
+  },
+  {
+    "user": "我上一句問妳什麼？",
+    "expect_contains": "宵夜"
+  },
+  {
+    "user": "你有記得我住哪嗎",
+    "expect_contains": "高雄"
+  },
+  {
+    "user": "我有說過我叫什麼嗎",
+    "expect_contains": "阿明"
+  },
+  {
+    "user": "我現在測試/re，不要解釋太多",
+    "expect_contains": ""
+  },
+  {
+    "user": "/re",
+    "expect_contains": ""
+  },
+  {
+    "user": "我喜歡吃甚麼水果?",
+    "expect_contains": "桃子"
+  },
+  {
+    "user": "欸如果我問很模糊 妳會怎麼做",
+    "expect_contains": "補充"
+  },
+  {
+    "user": "那你現在幫我總結三件你記得的我",
+    "expect_contains": ""
+  }
+]

@@ -1,0 +1,48 @@
+﻿# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Environment & secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime data / logs
+runtime_logs/
+*.log
+*.jsonl
+*.sqlite
+*.db
+
+# Project-generated memory/vector data
+lancedb_data/
+.runtime/
+
+# Backups and temporary artifacts
+backup_code/
+*.bak
+
+# Prompt/persona files (exclude from GitHub)
+*prompt*.txt
+*persona*.txt
+command.txt
+AGENTS.md
+CLAUDE.md
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
