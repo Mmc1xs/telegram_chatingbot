@@ -32,7 +32,7 @@
   - 新增記憶：`add_long_memory.py`
   - 查看記憶：`view_long_memory.py`
   - 刪除記憶：`delete_long_memory.py`
-  - 主詞清理（統一為「主人」）：`clean_memory_subject.py`
+  - 主詞清理：`clean_memory_subject.py`
 
 - 已完成測試與驗證工具
   - Telegram 真實互動測試：`telegram_test_agent/tester.py`
